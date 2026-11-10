@@ -1,10 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Portfolio</title>
+
+    <title>Saurabh | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,14 +16,31 @@
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
     </nav>
 
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hello! I am learning Python, JavaScript, and Cloud Computing.</p>
+    <section class="hero">
 
-    <button onclick="showMessage()">Click Me</button>
-    <p id="message"></p>
+        <img src="profile.png" alt="My Profile Picture" class="profile-img">
+
+        <h1>Hi, I'm Saurabh 👋</h1>
+
+        <h2>Aspiring Cloud Engineer</h2>
+
+        <p>
+            I am pursuing BCA and learning Python, JavaScript,
+            Cloud Computing, and DevOps.
+            I love building practical projects and learning new technologies.
+        </p>
+
+        <a href="#projects" class="hero-btn">View My Projects</a>
+
+        <a href="https://github.com/saurabhcodes-cloud"
+           class="hero-btn"
+           target="_blank">
+           Visit My GitHub
+        </a>
+
+    </section>
 
     <section id="about">
         <h2>About Me</h2>
@@ -34,26 +53,34 @@
     </section>
 
     <section id="projects">
-        <h2>My Projects</h2>
-        <p>Personal Portfolio Website</p>
-        <p>Python Cloud Cost Calculator</p>
-    </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Welcome to my learning journey!</p>
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>A personal website built using HTML, CSS, and JavaScript.</p>
+                <span>HTML | CSS | JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Python Cloud Cost Calculator</h3>
+                <p>A Python program that calculates monthly cloud server expenses.</p>
+                <span>Python</span>
+            </div>
+
+            <div class="project-card">
+                <h3>Future Cloud Project</h3>
+                <p>More cloud computing projects coming soon!</p>
+                <span>Cloud Computing</span>
+            </div>
+
+        </div>
+
     </section>
 
     <script src="script.js"></script>
 
-
-   
-
 </body>
-<button onclick="showMessage()">Click Me</button>
-
-<p id="message"></p>
-
-<script src="script.js"></script>
-
 </html>
